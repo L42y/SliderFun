@@ -37,7 +37,10 @@ struct PolarrSlider<V: BinaryFloatingPoint>: View {
                         .background(
                             LinearGradient(
                                 gradient: Gradient(
-                                    colors: [color.darken(), color.lighten()]
+                                    colors: [
+                                        color.darken(),
+                                        color.lighten()
+                                    ]
                                 ),
                                 startPoint: .leading,
                                 endPoint: .trailing

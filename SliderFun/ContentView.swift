@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var value: Double = 0
+    @State var value: Double = 0.5
 
     var body: some View {
-        SliderView(value: $value, range: -200...200)
+        VStack(spacing: 0) {
+            Color.accentColor.adjust(by: CGFloat(value - 0.5))
+
+            SliderView(value: $value, range: 0...1)
+        }.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
 
