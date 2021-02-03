@@ -106,6 +106,7 @@ struct SliderView<V: BinaryFloatingPoint>: View {
 
     let label: String = "Slider"
     let range: ClosedRange<V>
+    let format: String = "%.1f"
 
     var body: some View {
         VStack {
@@ -115,7 +116,7 @@ struct SliderView<V: BinaryFloatingPoint>: View {
 
                 Spacer()
                 
-                Text(String(Int(value)))
+                Text(String(format: format, Double(value)))
                     .font(.system(.body, design: .monospaced))
             }
 
