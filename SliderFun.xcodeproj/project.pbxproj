@@ -11,6 +11,9 @@
 		B4303CA125CA79280020AD66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4303CA025CA79280020AD66 /* ContentView.swift */; };
 		B4303CA325CA792C0020AD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4303CA225CA792C0020AD66 /* Assets.xcassets */; };
 		B4303CA625CA792C0020AD66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4303CA525CA792C0020AD66 /* Preview Assets.xcassets */; };
+		B4303CB025CA795F0020AD66 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4303CAF25CA795F0020AD66 /* View.swift */; };
+		B4303CB525CA79F60020AD66 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4303CB425CA79F60020AD66 /* SliderView.swift */; };
+		B4303CBE25CAB2A80020AD66 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4303CBD25CAB2A70020AD66 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		B4303CA225CA792C0020AD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4303CA525CA792C0020AD66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4303CA725CA792C0020AD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4303CAF25CA795F0020AD66 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B4303CB425CA79F60020AD66 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		B4303CBD25CAB2A70020AD66 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,10 @@
 		B4303C9D25CA79280020AD66 /* SliderFun */ = {
 			isa = PBXGroup;
 			children = (
+				B4303CB325CA79E50020AD66 /* Slider */,
 				B4303C9E25CA79280020AD66 /* SliderFunApp.swift */,
 				B4303CA025CA79280020AD66 /* ContentView.swift */,
+				B4303CAE25CA794A0020AD66 /* Extensions */,
 				B4303CA225CA792C0020AD66 /* Assets.xcassets */,
 				B4303CA725CA792C0020AD66 /* Info.plist */,
 				B4303CA425CA792C0020AD66 /* Preview Content */,
@@ -67,6 +75,23 @@
 				B4303CA525CA792C0020AD66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4303CAE25CA794A0020AD66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4303CAF25CA795F0020AD66 /* View.swift */,
+				B4303CBD25CAB2A70020AD66 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4303CB325CA79E50020AD66 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				B4303CB425CA79F60020AD66 /* SliderView.swift */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +165,9 @@
 			files = (
 				B4303CA125CA79280020AD66 /* ContentView.swift in Sources */,
 				B4303C9F25CA79280020AD66 /* SliderFunApp.swift in Sources */,
+				B4303CB525CA79F60020AD66 /* SliderView.swift in Sources */,
+				B4303CBE25CAB2A80020AD66 /* Color.swift in Sources */,
+				B4303CB025CA795F0020AD66 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
